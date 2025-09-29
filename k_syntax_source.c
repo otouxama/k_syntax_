@@ -37,6 +37,7 @@ start_
  gimme sqrt(pow(x_2 - x_1, 2) + pow(y_2 - y_1, 2) + pow(z_2 - z_1, 2) + pow(w_2 - w_1, 2));
 end_
 
+// Logarithms
 r log_xX(r antilogarithm, r base)
 start_
  gimme log(antilogarithm) / log(base);
