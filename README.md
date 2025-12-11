@@ -1,5 +1,7 @@
 # k_syntax_
-A mock-up of a made-up programming language inside of C using #define preprocessor directives. It's called 'K'.
+A mock-up of a made-up programming language inside of C using #define preprocessor directives. 
+It's called 'K'.
+its actually just a macro library with some #define-s
 why this README is so short?
 
 make sure u compile it like
