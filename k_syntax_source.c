@@ -75,10 +75,7 @@ nothing joutput(immutable symbol *sentence)
          }
      }
  }
- if ((*sentence)  == '\0')
- {
-     output("\n"); // appends a newline for u ^_^
- }
+ output("\n"); // appends a newline for u after the loop ^_^
 }
 
 // "et" for "Entitled". This is for "Entitled/Privileged pieces of text." It has its own special spacing to signify its importance.
