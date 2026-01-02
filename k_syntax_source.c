@@ -49,32 +49,30 @@ r log_xX(r antilogarithm, r base)
 }
 
 // random anime function
-// rewrote ts by using the Guard Clause method all by myself cuz i felt really bad and guilty for using AI for it
+// rewrote ts by using the Guard Clause method all by myself cuz i felt really bad and guilty for using AI for it(i was utterly wrong....)
 nothing joutput(immutable symbol *sentence)
 {
- immutable symbol *jhs[4] = {"-san", "-senpai", "-sensei", "-sama"};
- while (*sentence)
- {
-     if (not_(((*sentence) is_ '_' and_ *(sentence + 1) is_ 'j' and_ *(sentence + 2) is_ 'h')))
-     {
-         putchar(*sentence);
-         sentence++;
-     }
-     else
-     {
-         if (not_(*(sentence + 3) >= '1' and_ *(sentence + 3) <= '4'))
-         {
-             output("_jh");
-             sentence += 3;
-         }
-         else
-         {
-             z index = *(sentence + 3) - '1';
-             output("%s", jhs[index]);
-             sentence += 4;
-         }
-     }
- }
+    immutable symbol *jhs[4] = {"-san", "-senpai", "-sensei", "-sama"};
+    while (*sentence)
+    {
+        if (not_(((*sentence) is_ '_' and_ *(sentence + 1) is_ 'j' and_ *(sentence + 2) is_ 'h')))
+        {
+            putchar(*sentence);
+            sentence++;
+            continue;
+        }
+        
+        if (not_(*(sentence + 3) >= '1' and_ *(sentence + 3) <= '4'))
+        {
+            output("_jh");
+            sentence += 3;
+            continue;
+        }
+        
+        z index = *(sentence + 3) - '1';
+        output("%s", jhs[index]);
+        sentence += 4;
+    }
     output("\n"); // appends a newline for u after the loop ^_^
 }
 

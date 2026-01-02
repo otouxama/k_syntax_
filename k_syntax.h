@@ -34,6 +34,8 @@
 #define input scanf 
 #define my_app main 
 #define liberate free
+#define unpause continue;
+#define stopit break;
 #define mini short
 #define start int main(void) { 
 #define end return 0; } // weird
