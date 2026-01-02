@@ -33,6 +33,8 @@
 #define output printf 
 #define input scanf 
 #define my_app main 
+#define liberate free
+#define mini short
 #define start int main(void) { 
 #define end return 0; } // weird
 #define start_ { // [deprecated crap]
