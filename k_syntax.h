@@ -1,3 +1,5 @@
+#pragma once
+
 #ifndef K_SYNTAX_H_
 #define K_SYNTAX_H_
 
@@ -32,7 +34,7 @@
 #define input scanf 
 #define my_app main 
 #define start int main(void) { 
-#define end return 0; } 
+#define end return 0; } // weird
 #define start_ { // [deprecated crap]
 #define end_ } // [deprecated crap]
 #define gimme_main_exit return 0; 
