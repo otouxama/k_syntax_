@@ -48,6 +48,10 @@ extern const double eu;
 extern const double pi;
 extern const double gr;
 
+extern const double eu;
+extern const double pi;
+extern const double gr;
+
 r pyth_2d(r x, r y);
 
 r pyth_3d(r x_, r y_, r z_);

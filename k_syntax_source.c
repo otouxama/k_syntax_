@@ -85,4 +85,5 @@ nothing joutput(immutable symbol *sentence)
 nothing etoutput(immutable symbol *text)
 {
  output("\n\t%s\t\n", text);
+
 }
