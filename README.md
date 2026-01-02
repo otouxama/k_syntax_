@@ -1,5 +1,5 @@
 # k_syntax_
-A mini macro library in C. 
+A mini macro library in C designed like an esot
 It's called 'K'.
 its actually very simple, dont expect much from it.
 why this README is so short?
@@ -11,7 +11,7 @@ gcc [YOUR_FILE].c k_syntax_source.c -o [YOUR_EXECUTABLE]
 ```
 that source file is necessary.
 
-how does an avg k program look like?
+how does a regular k program look like?
 
 ```cpp
 // get the k_syntax header and its source in a folder/directory.
