@@ -62,7 +62,7 @@ nothing joutput(immutable symbol *sentence)
      }
      else
      {
-         if (not_(*(sentence + 3) >= '1') and_ not_(*(sentence + 3) <= '4'))
+         if (not_(*(sentence + 3) >= '1' and_ *(sentence + 3) <= '4'))
          {
              output("_jh");
              sentence += 3;
@@ -75,7 +75,7 @@ nothing joutput(immutable symbol *sentence)
          }
      }
  }
- output("\n"); // appends a newline for u after the loop ^_^
+    output("\n"); // appends a newline for u after the loop ^_^
 }
 
 // "et" for "Entitled". This is for "Entitled/Privileged pieces of text." It has its own special spacing to signify its importance.
