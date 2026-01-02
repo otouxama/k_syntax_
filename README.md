@@ -1,9 +1,12 @@
 # k_syntax_
 
 A mini macro library in C designed like an esoteric programming language.
+
 I call it 'K' :D
+
 its actually very simple, dont expect much from it.
-why this README is so short?
+
+###### why this README is so short?
 
 make sure u compile it like
 
