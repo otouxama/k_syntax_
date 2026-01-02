@@ -77,7 +77,7 @@ nothing joutput(immutable symbol *sentence)
  }
  if ((*sentence)  == '\0')
  {
-     output("\n");
+     output("\n"); // appends a newline for u ^_^
  }
 }
 
@@ -85,5 +85,4 @@ nothing joutput(immutable symbol *sentence)
 nothing etoutput(immutable symbol *text)
 {
  output("\n\t%s\t\n", text);
-
 }
