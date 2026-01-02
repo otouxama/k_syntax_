@@ -33,14 +33,20 @@
 #define my_app main 
 #define start int main(void) { 
 #define end return 0; } 
-#define start_ { 
-#define end_ } 
+#define start_ { // [deprecated crap]
+#define end_ } // [deprecated crap]
 #define gimme_main_exit return 0; 
 #define immutable const 
 #define and_ && 
-#define or_ ||    
-#define isnt != 
+#define or_ ||
+#define is_ ==
+#define isnt_ != 
 #define xor_ ^ 
+#define not_ !
+
+extern const double eu;
+extern const double pi;
+extern const double gr;
 
 r pyth_2d(r x, r y);
 
@@ -60,4 +66,4 @@ nothing joutput(immutable symbol *sentence);
 
 nothing etoutput(immutable symbol *text);
 
-#endif 
+#endif

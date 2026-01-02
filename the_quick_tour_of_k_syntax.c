@@ -61,6 +61,10 @@ start
  output("3. %f\n", euclid_4d_result);
  output("log_%f(%f) = %f.\n", my_base, my_antilogarithm, log_result);
  output("Thus, %f^%f = %f\n", my_base, log_result, pow(my_base, log_result));
+ output("some math constants:\n");
+ output("euler: %.16lf\n", eu);
+ output("pi: %.16lf\n", pi);
+ output("golden ratio: %.16lf\n", gr);
  joutput("Hello Yagami_jh1!\n");
  joutput("How is Lawliet_jh2 doing?\n"); 
  joutput("Please wake up Osaka_jh3.\n");
