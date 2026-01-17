@@ -49,7 +49,7 @@ r log_xX(r antilogarithm, r base)
 }
 
 // random anime function
-// rewrote ts by using the Guard Clause method all by myself cuz i felt really bad and guilty for using AI for it(i was utterly wrong....)
+// rewrote ts by using the Guard Clause method all by myself cuz i felt really bad and guilty for using AI for itn ok? (i was utterly wrong....)
 nothing joutput(immutable symbol *sentence)
 {
     immutable symbol *jhs[4] = {"-san", "-senpai", "-sensei", "-sama"};
