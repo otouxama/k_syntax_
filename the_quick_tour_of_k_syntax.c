@@ -43,8 +43,10 @@ start
  output("%f\n", a_num);
  greet("Rafin");
  output("Enter a number: ");
- input(" %i", &an_int);
+ input(gimme_z_for an_int);
  output("Your number is: %i!\n", an_int);
+ newline_
+ newline_
  r pyth_2d_result = pyth_2d(x_1_, y_1_);
  r pyth_3d_result = pyth_3d(x_1_, y_1_, z_1_);
  r pyth_4d_result = pyth_4d(x_1_, y_1_, z_1_, w_1_);

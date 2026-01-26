@@ -6,13 +6,14 @@ I call it 'K' :D
 
 its actually very simple, dont expect much from it.
 
-###### why this README is so short?
+why this README is so short?
 
 make sure u compile it like
 
 ```batch
 gcc [YOUR_FILE].c k_syntax_source.c -o [YOUR_EXECUTABLE]
 ```
+
 that source file is necessary.
 
 how does a regular k program look like?

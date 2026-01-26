@@ -20,11 +20,10 @@
 #define nothing void 
 #define z int
 #define zz long int 
-#define zzz long long 
+#define zzz long long int
 #define r float 
 #define rr double 
 #define rrr long double 
-#define non_negative unsigned 
 #define symbol char 
 #define lie_detector bool 
 #define correct true 
@@ -49,10 +48,12 @@
 #define isnt_ != 
 #define xor_ ^ 
 #define not_ !
-
-extern const double eu;
-extern const double pi;
-extern const double gr;
+#define gimme_symbol_for " %c", &
+#define gimme_symbols_for " %s", &
+#define gimme_z_for " %d", &
+#define gimme_r_for " %f", &
+#define mem_loc &
+#define newline_ output("\n");
 
 extern const double eu;
 extern const double pi;
