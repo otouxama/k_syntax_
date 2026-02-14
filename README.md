@@ -4,17 +4,17 @@ I call it 'K' :D
 
 It's actually very simple, dont expect much from it.
 
-###### What is it? 🤔💭
+# What is it? 🤔💭
 
 A mini macro library in C designed like an esoteric programming language.
 What is an esoteric language you may ask?
 
-An esoteric programming language, is a computer programming language designed to
+An esoteric programming language is a computer programming language designed to
 
 - Experiment with weird (and cool) ideas
 - As a joke
 
-###### How do you use it? 💻⚙️
+# How do you use it? 💻⚙️
 
 Make sure u compile it like this
 
