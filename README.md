@@ -1,4 +1,4 @@
-# k_syntax_ 👨‍💻 </>
+# k_syntax_ 👨‍💻 
 
 I call it 'K' :D
 
