@@ -1,6 +1,6 @@
 #include "k_syntax.h"
 
-// some math constants
+// some math constants gng
 const double eu = 2.718281828459045;
 const double pi = 3.141592653589793;
 const double gr = 1.618033988749894;

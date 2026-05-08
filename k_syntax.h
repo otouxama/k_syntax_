@@ -38,8 +38,8 @@
 #define mini short
 #define start int main(void) { 
 #define end return 0; } // weird
-#define start_ { // [deprecated crap]
-#define end_ } // [deprecated crap]
+#define start_ { // [deprecated]
+#define end_ } // [deprecated]
 #define gimme_main_exit return 0; 
 #define immutable const 
 #define and_ && 
