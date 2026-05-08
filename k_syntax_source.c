@@ -48,7 +48,7 @@ r log_xX(r antilogarithm, r base)
  gimme log(antilogarithm) / log(base);
 }
 
-// random anime function
+// random anime function gng
 // rewrote ts by using the Guard Clause method all by myself cuz i felt really bad and guilty for using AI for itn ok? (i was utterly wrong....)
 nothing joutput(immutable symbol *sentence)
 {

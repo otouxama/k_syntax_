@@ -1,22 +1,27 @@
-# k_syntax_
-
-A mini macro library in C designed like an esoteric programming language.
+# k_syntax_ 👨‍💻 </>
 
 I call it 'K' :D
 
-its actually very simple, dont expect much from it.
+It's actually very simple, dont expect much from it.
 
-why this README is so short?
 
-make sure u compile it like
+
+# what is it? 🤔💭
+
+a mini macro library in C designed like an esoteric programming language.
+
+# how do you use it? 💻⚙️
+
+make sure u compile it like this in the terminal
 
 ```batch
 gcc [YOUR_FILE].c k_syntax_source.c -o [YOUR_EXECUTABLE]
 ```
 
+
 that source file is necessary.
 
-how does a regular k program look like?
+now, how does a regular K program look like?
 
 ```cpp
 // get the k_syntax header and its source in a folder/directory.
@@ -28,4 +33,4 @@ start
 end
 ```
 
-enjoy!
+Enjoy!

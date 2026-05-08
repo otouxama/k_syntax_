@@ -1,4 +1,4 @@
-#pragma once
+#pragma once 
 
 #ifndef K_SYNTAX_H_
 #define K_SYNTAX_H_
