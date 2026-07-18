@@ -1,16 +1,14 @@
-# k_syntax_ 👨‍💻 </>
+# k_syntax_  </>
 
-I call it 'K' :D
+I call it 'K' 
 
 It's actually very simple, dont expect much from it.
 
-
-
-# what is it? 🤔💭
+# what is it? 
 
 a mini macro library in C designed like an esoteric programming language.
 
-# how do you use it? 💻⚙️
+# how do you use it? 
 
 make sure u compile it like this in the terminal
 
